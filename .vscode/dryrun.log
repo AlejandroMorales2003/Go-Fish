@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/alejandromorales/Documents/GoFish'
+g++ -std=c++11 -g -c game.cpp
+g++ -std=c++11 -g -c player.cpp
+g++ -std=c++11 -g -c hand.cpp
+g++ -std=c++11 -g -c deck.cpp
+g++ -std=c++11 -g -c card.cpp
+g++ -std=c++11 -g game.o player.o hand.o deck.o card.o gofish.cpp -o prog
+make: Leaving directory `/Users/alejandromorales/Documents/GoFish'
+ 
